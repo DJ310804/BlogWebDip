@@ -80,7 +80,7 @@ function FormSignUp(){
                 </div>
                 <div className="mt-8 flex justify-center items-center"> 
                     <p className="font-medium text-base"> Already have an account?</p>
-                    <button onClick={() => window.location.href = './Login.jsx'} className="text-blue-700 text-base font-medium ml-2" > Sign In</button>
+                    <button onClick={() => window.location.href = '/login'} className="text-blue-700 text-base font-medium ml-2" > Sign In</button>
                 </div>
             </div>
         </div>

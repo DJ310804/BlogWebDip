@@ -7,6 +7,7 @@ import Signup from './components/Signup';
 import Layout from './Layout';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BlogCreate from './components/BlogCreate';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Login />} />
-            <Route path="Signup" element={<Signup />} />
-            <Route path="BlogCreate" element={<BlogCreate />} />
+          <Route index element={<Home/>} />
+            <Route path="login" element={<Login />} />
+            <Route path="signup" element={<Signup />} />
+            <Route path="blogcreate" element={<BlogCreate />} />
           </Route>
         </Routes>
       </BrowserRouter>
