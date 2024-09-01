@@ -22,6 +22,14 @@
     opacity: 1;
   }
 
+  .navbar {
+    height: 64px; /* adjust this value to match your navbar height */
+  }
+  
+  .footer {
+    height: 48px; /* adjust this value to match your footer height */
+  }
+
   .btn {
     position: relative;
     width: 120px;

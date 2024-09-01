@@ -32,7 +32,10 @@ function NavBar() {
                             <NavLink className="hover:text-gray-500" to="/blogcreate">Create Blog</NavLink>
                         </li>
                         <li>
-                            <NavLink className="hover:text-gray-500" to="/about">About</NavLink>
+                            <NavLink className="hover:text-gray-500" to="/blog">Blog View</NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="hover:text-gray-500" to="/profile">Profile</NavLink>
                         </li>
                     </ul>
                 </div>

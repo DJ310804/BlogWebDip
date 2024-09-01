@@ -32,7 +32,7 @@ function HeroSection() {
           </div>
           <div className="w-full md:w-1/2">
             <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-              <img src={blogimg} />
+              <img src={blogimg} className="w-full h-96 object-cover" />
             </div>
           </div>
         </div>
