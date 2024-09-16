@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BlogCreate from './components/BlogCreate';
 import Home from './components/Home';
 import Blogs from './components/Blogs';
-import ProfilePg from './components/ProfilePg';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
             <Route path="signup" element={<Signup />} />
             <Route path="blogcreate" element={<BlogCreate />} />
             <Route path="blog" element={<Blogs />} />
-            <Route path="profile" element={<ProfilePg />} />
+            <Route path="profile" element={<Profile />} />
           </Route>
         </Routes>
       </BrowserRouter>
