@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaGoogle } from "react-icons/fa";
 import googleLogo from '../assets/imgs/googlelogo.svg'
-
+import { NavLink } from 'react-router-dom';
 function FormSignIn(){
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -66,9 +66,9 @@ function FormSignIn(){
             Sign in with Google
           </button>
         </div>
-        <div className="mt-8 flex justify-center items-center"> 
-          <p className="font-medium text-base"> Don't have an account?</p>
-          <button onClick={() => window.location.href = '/signup'} className="text-blue-400 text-base font-medium ml-2" > Sign up</button>
+        <div className="mt-8 flex justify-center items-center">
+          <p className="font-medium text-base">Don't have an account?</p>
+          <NavLink to="/signup" className="text-blue-400 text-base font-medium ml-2">Sign up</NavLink>
         </div>
       </div>
     </div>

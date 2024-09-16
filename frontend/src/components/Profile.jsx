@@ -134,7 +134,7 @@ function Profile() {
                     alt="Profile"
                 />
                 <div className="flex items-center space-x-2 mt-2">
-                    <p className="text-2xl">Amanda Ross</p>
+                    <p className="text-2xl text-[#e6e9eef1]">Amanda Ross</p>
                     <span className="bg-blue-500 rounded-full p-1" title="Verified">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -152,8 +152,8 @@ function Profile() {
                         </svg>
                     </span>
                 </div>
-                <p className="text-gray-700">Senior Software Engineer at Tailwind CSS</p>
-                <p className="text-sm text-gray-500">New York, USA</p>
+                <p className="text-[#ffffff]">Senior Software Engineer at Tailwind CSS</p>
+                <p className="text-sm text-[#f0f3f6]">New York, USA</p>
             </div>
             <div className="flex-1 flex flex-col items-center lg:items-end justify-end px-8 mt-2">
                 <div className="flex items-center space-x-4 mt-2">
@@ -191,8 +191,8 @@ function Profile() {
         <div class="my-4 flex flex-col xl:flex-row justify-center space-y-4 xl:space-y-0 xl:space-x-4">
           <div class="w-full xl:w-1/2 flex flex-col xl:flex-row justify-center">
             <div class="flex-1 rounded-lg shadow-xl p-8 xl:w-full">  
-            <h4 class="text-xl text-gray-900 font-bold">Personal Info</h4>
-            <ul class="mt-2 text-gray-700">
+            <h4 class="text-xl text-[#ffffff] font-bold">Personal Info</h4>
+            <ul class="mt-2  text-[#ffffff]">
                 <li class="flex border-b py-2">
                     <span class="font-bold w-24">Full name:</span>
                     <span>Amanda S. Ross</span>
@@ -203,11 +203,11 @@ function Profile() {
                 </li>
                 <li class="flex border-b py-2">
                     <span class="font-bold w-24">Joined:</span>
-                    <span>10 Jan 2022 (25 days ago)</span>
+                    <span>15 Sept 2024 (5 days ago)</span>
                 </li>
                 <li class="flex border-b py-2">
                     <span class="font-bold w-24">Mobile:</span>
-                    <span>(123) 123-1234</span>
+                    <span>(+91) 7875756456</span>
                 </li>
                 <li class="flex border-b py-2">
                     <span class="font-bold w-24">Email:</span>
@@ -215,7 +215,7 @@ function Profile() {
                 </li>
                 <li class="flex border-b py-2">
                     <span class="font-bold w-24">Location:</span>
-                    <span>New York, US</span>
+                    <span>Mumbai, IND</span>
                 </li>
                 <li class="flex border-b py-2">
                     <span class="font-bold w-24">Languages:</span>
